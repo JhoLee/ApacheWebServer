@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> contenteditable 요소 </title>
+
+    <script>
+        window.onLoad = function () {
+            var editor = document.getElementById("edit1");
+            if (editor.isContentEditable) { editor.focus(); }
+        };
+    </script>
+
+</head>
+
+<body>
+    <ol>
+        <li id="edit1" contenteditable> 텍스트 편집 가능(자동 포커싱) </li>
+        <li id="edit2"> 클릭해도 편집이 안됨 </li>
+        <li id="edit3" contenteditable=false> 클릭해도 편집이 안됨</li>
+        <li id="edit1" contenteditable=i nherit> ???</li>
+    </ol>
+</body>
+
+</html>

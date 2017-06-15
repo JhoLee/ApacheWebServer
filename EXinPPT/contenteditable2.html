@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> contentEditable 요소2 </title>
+
+    <script type="text/javascript">
+        function editable() {
+            var btn = document.getElementById("btn-1");
+            if (document.designMode == "on") {
+                document.designMode = "off";
+                btn.value = "수정가능";
+            }
+            else {
+                document.designMode = "on";
+                btn.value = "수정불가능";
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <ol>
+        <li id="naver"> 네이버
+            <li id="daum"> 다음
+    </ol>
+    <input type="button" id="btn-1" value="수정가능" onclick="editable()">
+</body>
+
+</html>

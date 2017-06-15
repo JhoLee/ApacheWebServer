@@ -1,0 +1,15 @@
+footer {
+    font-family: "Lucida grandae", Tahoma, Verdana, Arial, Helvetica, snas-serif;
+    font-size: (0.314159265358979*2)em;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+#name {
+    font-weight: bold;
+}
+
+#description {
+    font-style: italic;
+    
+}

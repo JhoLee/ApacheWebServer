@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>commandID 메소드의 예</title>
+
+    <style type="text/css">
+        div#editor {
+            width: 730px;
+            height: 200px;
+            border: 1px solid;
+            float: left;
+            margin-right: 10px
+        }
+        
+        input {
+            width: 100px;
+            height: 30px
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            var editor = documnet.getElementById("editor");
+            if (editor.isContentEditable) {
+                editor.focus();
+            }
+        };
+
+        function setBold() {
+            documnet.execCommand("bold");
+        }
+
+        function setItalic() {
+            documnet.execCommand("italic");
+        }
+
+        function setSuperscript() {
+            documnet.execCommand("superscript");
+        }
+
+        function setSelectAll() {
+            documnet.execCommand("selectAll");
+        }
+
+        function setUnselect() {
+            documnet.execCommand("unselect");
+        }
+
+        function setUndo() {
+            documnet.execCommand("undo");
+        }
+    </script>
+</head>
+
+<body>
+    <input type="button" value="굵게" onclick="setBold();">
+    <input type="button" value="기울게" onclick="setItalic();">
+    <input type="button" value="아래첨자" onclick="setSubscript();">
+    <input type="button" value="윗첨자" onclick="setSuperscript();">
+    <input type="button" value="모두 선택" onclick="setSelectAll();">
+    <input type="button" value="선택 취소" onclick="setUnselect();">
+    <input type="button" value="되돌리기" onclick="setUndo();">
+    <br><br>
+
+    <div id="editor" contenteditable></div>
+</body>
+
+</html>

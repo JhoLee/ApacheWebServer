@@ -1,0 +1,24 @@
+<script type="text/javascript">
+    function line() {
+        var canvas = document.getElementById('canvas');
+        context = canvas.getContext('2d');
+
+        context.beginPath();
+        context.moveTo(10, 10);
+        context.lineTo(100, 100);
+        context.lineWidth - 5;
+        context.strokeStyle = 'blue';
+        context.closePath();
+        context.stroke();
+
+        context.beginPath();
+        context.arc(150, 50, 040, 0, 360 * Math.PI / 180, false);
+        context.stroke();
+
+        context.beginPath();
+        context.strokeRect(220, 10, 90, 90);
+        context.colsePath();
+
+    }
+
+</script>

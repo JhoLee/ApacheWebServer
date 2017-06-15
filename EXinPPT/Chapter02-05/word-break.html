@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 텍스트 효과 연습</title>
+    <style>
+        div {
+            width: 400px;
+            border: 1px solid back;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        div#break1 {
+            word-break: normal
+        }
+
+        div#break2 {
+            word-break: break-all
+        }
+
+        div#break3 {
+            word-break: keep-all
+        }
+    </style>
+</head>
+
+<body>
+    <h3>CSS3 텍스트 줄 바꿈 지정하기</h3>
+    <div id="break1">
+        <mark>normal</mark>은 줄 바꿈이 일어나지 않게 지정하는 것이며, break-all은 특수 문자를 제외하고 강제로 줄 바꿈이 일어나도록 지정한다. 그리고 keep-all은 띄어쓰기를 기준으로 줄 바꿈을
+        수행한다.</div><br>
+    <div id="break2">normal은 줄 바꿈이 일어나지 않게 지정하는 것이며,
+        <mark>break-all</mark>은 특수 문자를 제외하고 강제로 줄 바꿈이 일어나도록 지정한다. 그리고 keep-all은 띄어쓰기를 기준으로 줄 바꿈을 수행한다.</div><br>
+    <div id="break3">normal은 줄 바꿈이 일어나지 않게 지정하는 것이며, break-all은 특수 문자를 제외하고 강제로 줄 바꿈이 일어나도록 지정한다. 그리고
+        <mark>keep-all</mark>은 띄어쓰기를 기준으로 줄 바꿈을 수행한다.</div><br>
+</body>
+
+</html>
