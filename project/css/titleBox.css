@@ -20,7 +20,8 @@
 }
 
 #TitleBox header {
-    font-size: 22pt;
+    font-size: 30px;
+    font-weight: bold;
 }
 #TitleBox .description {
     position: absolute;
@@ -36,4 +37,5 @@
     
     text-overflow: elipsis;
     word-break: break-all;
+    font-size: 15px;
 }

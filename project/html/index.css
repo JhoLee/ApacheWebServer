@@ -7,4 +7,9 @@
 
 @charset "UTF-8";
 @import "../css/titleBox.css";
-@import "../css/LeftMenu.css";
+@import "../css/LeftMenuBox.css";
+
+
+* {
+    font-size: 13px;
+}
