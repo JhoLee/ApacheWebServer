@@ -7,12 +7,13 @@
 
 
 
-div, ul, li { margin:0; padding:0; }
+nav, ul, li { margin:0; padding:0; }
+
 
 #TopMenu {
-    position: relative;
-    top: 40px;
-    right: 600px;
+    position: absolute;
+    top: 208px;
+    left: 15px;
     
     float:right;
 	margin:0px 5px 3px 5px;

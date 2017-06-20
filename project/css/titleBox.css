@@ -6,10 +6,10 @@
 */
 
 #TitleBox {
-     position: relative;
+     position: absolute;
     
-    left: 13px;
-    top: 13px;  
+    left: 15px;
+    top: 15px;  
     
     
     width: 800px;
