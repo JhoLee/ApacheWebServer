@@ -5,9 +5,35 @@
     @content: css for 'titleBox'
 */
 
-#top header{
-    font-size: 22pt;
-    width: 100%;
+#TitleBox {
+    position: relative;
+    left: 10px;
+    top: 10px;  
+    
+    position: relative;
+    width: 100% - 20px;
     height: 150px;
     border: 1px solid black;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#TitleBox header {
+    font-size: 22pt;
+}
+#TitleBox .description {
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
+
+    width: 40%;
+    height: 70px;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right:10px;
+    
+    text-overflow: elipsis;
+    word-break: break-all;
 }
