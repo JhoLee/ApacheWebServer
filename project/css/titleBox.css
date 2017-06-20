@@ -6,9 +6,10 @@
 */
 
 #TitleBox {
+     position: relative;
     
-    left: 10px;
-    top: 10px;  
+    left: 13px;
+    top: 13px;  
     
     
     width: 800px;
@@ -20,11 +21,13 @@
 }
 
 #TitleBox header {
+   
+
     font-size: 30px;
     font-weight: bold;
 }
 #TitleBox .description {
-    position: absolute;
+    
     left: 13px;
     bottom: 13px;
 

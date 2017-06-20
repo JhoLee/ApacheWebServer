@@ -9,9 +9,3 @@
 @import "../css/titleBox.css";
 @import "../css/LeftMenuBox.css";
 @import "../css/TopMenu.css";
-
-
-* {
-    position: absolute;
-    font-size: 13px;
-}

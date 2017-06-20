@@ -5,7 +5,15 @@
     @content: css for 'TopMenu'
 */
 
+
+
+div, ul, li { margin:0; padding:0; }
+
 #TopMenu {
+    position: relative;
+    top: 40px;
+    right: 600px;
+    
     float:right;
 	margin:0px 5px 3px 5px;
 	padding:0 0 3px 0;
@@ -18,13 +26,37 @@
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	background-color:#5c5c5c;
-
-    top: 170px;
-    font-size: 15px;
-    
 }
 
-.TopMainMenu {
-    float: left;
-    list-style-type: none;
+#TopMenu ul li {
+	float:left;
+	list-style-type:none;
+}
+
+#TopMenu a {
+	height:16px;
+	color:#f1f1f1;
+	font-family:arial;
+	font-size:12px;
+	padding:0 10px 0 10px;
+	text-decoration:none;
+}
+
+#TopMenu a:hover {
+	color:#D4F4FA;
+	border-bottom:3px solid #FAED7D;
+}
+
+#TopMenu ul ul {
+	display:none;
+	position:absolute;
+	background-color:#5c5c5c;
+}
+
+#TopMenu ul li:hover ul {
+	display: block;
+}
+
+#TopMenu ul ul li {
+	float:none;
 }
