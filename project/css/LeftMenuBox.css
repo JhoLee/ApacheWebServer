@@ -7,9 +7,9 @@
 
 #LeftMenuBox {
     
-    position: relative;
-    top: 20px;
-    left: 10px;
+    position: absolute;
+    top: 222px;
+    left: 18px;
     border: 1px solid black;
     width: 314px;
 

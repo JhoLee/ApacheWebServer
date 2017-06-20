@@ -6,6 +6,9 @@
 */
 
 .TopMainMenu {
+    
+    font-size: 15px;
+    background-color: gray;
     float: left;
     list-style-type: none;
 }
