@@ -6,12 +6,12 @@
 */
 
 #TitleBox {
-    position: relative;
+    
     left: 10px;
     top: 10px;  
     
     
-    width: 100% - 20px;
+    width: 800px;
     height: 150px;
     border: 1px solid black;
     padding-top: 10px;
@@ -25,10 +25,10 @@
 }
 #TitleBox .description {
     position: absolute;
-    left: 2%;
-    bottom: 2%;
+    left: 13px;
+    bottom: 13px;
 
-    width: 40%;
+    width: 314px;
     height: 70px;
     border: 1px solid black;
     padding-top: 5px;
