@@ -8,9 +8,22 @@
 
 #Main {
     position: absolute;
-    left: 380px;
-    top: 240px;
+    left: 205px;
+    top: 150px;
 
-    border: 1px solid black;
-    padding: 10px;
+    border: 1px solid gray;
+    padding: 15px;
+    width: 640px;
+    word-wrap: break-word;
+}
+
+.ArticleTitle {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.ArticleContent {
+    font-size: 13px;
+    
 }

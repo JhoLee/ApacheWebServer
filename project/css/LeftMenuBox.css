@@ -8,10 +8,10 @@
 #LeftMenuBox {
     
     position: absolute;
-    top: 240px;
+    top: 150px;
     left: 15px;
-    border: 1px solid black;
-    width: 314px;
+    border: 1px solid gray;
+    width: 140px;
 
     padding: 15px;    
 }

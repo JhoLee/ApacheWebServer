@@ -8,15 +8,22 @@
     <title>Main Page</title>
     <style type="text/css">
         @import "index.css";
+        * {
+            background-color: #BBBBBB;
+        }
+
+        div, ul, li, article, header, nav, aside {
+            background-color: #EDEDED;
+        }
     </style>
 </head>
 
 <body>
 
     <!--TitleBox-->
-    <div id="TitleBox">
-        <header>Title</header>
-        <p class="description">Deeeescriptioooooon</p>
+    <div style="background-color: #BBBBBB;" id="TitleBox">
+        <header style="background-color: #BBBBBB;" >Title</header>
+        
     </div>
 
     <!--nav-->
@@ -61,9 +68,14 @@
 
     </aside>
 
-<!--mainText-->
+<!--mainContent-->
 <article id="Main">
-    article
+    <header class="ArticleTitle">
+    Red Black Tree
+    </header>
+    <div class="ArticleContent">
+    순수한 이진 탐색 트리의 단점은 불균형하며 검색 효율을 심각하게 저하시킨다. 이런 이진 탐색 트리의 단점을 보완한 것이 레드 블랙 트리이다.
+    </div>
 </article>
 
 
