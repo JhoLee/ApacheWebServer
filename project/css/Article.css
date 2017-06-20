@@ -1,0 +1,16 @@
+/* 
+    @file: /css/Article.css
+    @author: jho3689@a.ut.ac.kr
+    @date: 17/06/21
+    @content: css for 'Article'
+    
+*/
+
+#Main {
+    position: absolute;
+    left: 380px;
+    top: 255px;
+
+    border: 1px solid black;
+    padding: 10px;
+}
