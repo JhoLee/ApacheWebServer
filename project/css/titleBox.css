@@ -1,0 +1,13 @@
+/* 
+    @file: /css/titleBox.css
+    @author: jho3689@a.ut.ac.kr
+    @date: 17/06/20
+    @content: css for 'titleBox'
+*/
+
+#top header{
+    font-size: 22pt;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+}
