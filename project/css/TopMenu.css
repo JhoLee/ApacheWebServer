@@ -18,15 +18,21 @@ nav, ul, li { margin:0; padding:0; }
     float:right;
 	margin:0px 5px 3px 5px;
 	padding:0 0 3px 0;
-	box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+
+	-moz-border-radius: 7px;
+	-khtml-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+  
+}
+
+#TopMenu, ul ul {
+    /* for Design */
+    background-color: #5c5c5c;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.3);
 	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
 	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
 	-o-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
-	-moz-border-radius: 3px;
-	-khtml-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
-	background-color:#5c5c5c;
 }
 
 #TopMenu ul li {
@@ -38,8 +44,8 @@ nav, ul, li { margin:0; padding:0; }
 	height:16px;
 	color:#f1f1f1;
 	font-family:arial;
-	font-size:12px;
-	padding:0 10px 0 10px;
+	font-size:17px;
+	padding:0 15px 0 15px;
 	text-decoration:none;
 }
 
@@ -49,6 +55,7 @@ nav, ul, li { margin:0; padding:0; }
 }
 
 #TopMenu ul ul {
+    margin-top: 0px;
 	display:none;
 	position:absolute;
 	background-color:#5c5c5c;
