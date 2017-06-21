@@ -106,3 +106,14 @@
 #TopMenu p {
     clear: left;
 }
+
+#navBackground {
+    position: absolute;
+    background-color: rgb(109, 109, 109);
+    height: 30px;
+    width: 860px;
+    top: 100px;
+    left: 15px;
+
+    z-index: -1;
+}
